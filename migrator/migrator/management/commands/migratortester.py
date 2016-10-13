@@ -10,7 +10,11 @@ class Command(BaseCommand):
         parser.add_argument('operation')
 
     def handle(self, *args, **options):
-        operation = options['operation']
+        try:
+            operation = options['operation']
+        except KeyError:
+            operation = args[0]
+
         if operation == 'start':
             self.stdout.write('Create legions')
             populate.create_legions(self)
