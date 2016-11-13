@@ -23,7 +23,7 @@ pip install -r requirements.txt
 3. Launch migration tester command with ``start`` argument:
 
     ```bash
-    python manage.py migrator_tester start
+    python manage.py migratortester start
     ```
 
 
@@ -42,5 +42,6 @@ pip install -r requirements.txt
 6. Launch migration tester command with ``validate`` argument:
 
     ```bash
+    python manage.py migrate
     python manage.py migratortester test
     ```
