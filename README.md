@@ -10,9 +10,9 @@ This application tests compatibility between different django-groups-manager ver
 
 1. Install requirements (this will install the latest stable release of ``django-groups-manager``):
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 2. Create a database for django and launch migrate:
 
