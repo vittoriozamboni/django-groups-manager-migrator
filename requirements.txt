@@ -1,4 +1,4 @@
-Django<1.9
+Django
 django-groups-manager
 django-extensions
-ipython
+django-guardian
